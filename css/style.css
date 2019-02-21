@@ -7357,18 +7357,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-selection {
-  color: #868f90;
-  background: #f9f6f0;
+  background-color: #45802c;
 }
 
 ::-moz-selection {
-  color: #868f90;
-  background: #f9f6f0;
+  background-color: #45802c;
 }
 
 ::selection {
-  color: #868f90;
-  background: #f9f6f0;
+  background-color: #45802c;
 }
 
 #fh5co-header {
