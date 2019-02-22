@@ -61,6 +61,15 @@ $navbar-height:                  80px !default;
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face{
+    
+          font-family: 'kauf';
+    src: url(KaufmannStd-Bold.woff) format('woff');
+    src: url(KKaufmannStd-Bold.woff2) format('woff2'')
+        font-family: 'kauf';
+    src: url(KaufmannStd-Bold.woff) format('woff');
+    src: url(KKaufmannStd-Bold.woff2) format('woff2'')
+}
 
 @mixin icomoon() {
 	
@@ -166,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	}
 	.navbar-brand {
-		text-transform: uppercase;
+		text-transform: lowercase;
 		letter-spacing: 2px;
 		font-size: 20px;
 		font-weight: 400;
@@ -174,8 +183,8 @@ h1, h2, h3, h4, h5, h6 {
 		// padding-top: 50px;
 		display: block;
 		padding-bottom: 1em;
-		font-family: $font-robotoslab;
-		background: $brand-primary;
+		font-family: "kauf";
+		background: #a54930;
 		color: $brand-white;
 	}
 }

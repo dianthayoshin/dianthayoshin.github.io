@@ -18,6 +18,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+logger{
+    font-family: 'kauf';
+}
+
 body {
   margin: 0;
 }
@@ -4791,7 +4795,7 @@ tbody.collapse.in {
   padding: 30px 25px;
   font-size: 18px;
   line-height: 20px;
-  height: 80px;
+  height: 233px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -7417,9 +7421,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-left: 0px;
   display: block;
-  padding-bottom: 1em;
+  padding-bottom: 64px;
   font-family: "Roboto Slab", arial, sans-serif;
-  background: #653600;
+  
   color: #fff;
 }
 
